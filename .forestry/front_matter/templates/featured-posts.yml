@@ -1,4 +1,9 @@
 ---
 label: Featured Posts
 hide_body: false
-fields: []
+fields:
+- name: featured_post_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Post Image
